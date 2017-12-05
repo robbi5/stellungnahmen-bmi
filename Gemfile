@@ -4,7 +4,9 @@
 
 source "https://rubygems.org"
 
-ruby "2.0.0"
+ruby '2.4.2'
 
-gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"
-gem "mechanize"
+gem 'scraperwiki', git: 'https://github.com/openaustralia/scraperwiki-ruby.git', branch: 'morph_defaults'
+gem 'mechanize', '~> 2.7.5'
+gem 'addressable', '~> 2.5.2'
+gem 'activesupport', '~> 5.1.4'
